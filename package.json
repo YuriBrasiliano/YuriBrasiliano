@@ -1,8 +1,7 @@
 {
   "name": "yuribrasiliano",
   "homepage": "https://yuribrasiliano.github.io/YuriBrasiliano.git/",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -16,6 +15,7 @@
     "framer-motion": "^10.8.4",
     "maath": "^0.5.3",
     "react": "^18.2.0",
+    "vite": "^2.2.4",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.9.0",
     "react-tilt": "^0.1.4",
