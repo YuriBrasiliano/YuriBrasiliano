@@ -40,6 +40,8 @@ jobs:
         
       - name: Set MIME type for .jsx files
         run: |
+          git config --global user.email yuribrasiliano37@gmail.com
+          git config --global user.name YuriBrasiliano
           echo '*.jsx text/jsx' > .gitattributes
           git add .gitattributes
           git commit -m "Set MIME type for .jsx files"
