@@ -17,11 +17,10 @@ jobs:
           npm ci --legacy-peer-deps
           npm run build
 
-      - name: Deploy to gh-pages
-        uses: JamesIves/github-pages-deploy-action@4.1.0
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.2.3
         with:
-          branch: main
-          folder: dist
-        env:
-         token: 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
-                
+          ACCESS_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+          BRANCH: main # O branch pode ser o que você usa para publicar o site
+          FOLDER: dist # A pasta onde está o conteúdo do site
+          CLEAN: true
