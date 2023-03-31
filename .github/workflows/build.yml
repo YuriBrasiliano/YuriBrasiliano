@@ -20,7 +20,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
-          token: ${{ secrets.DEPLOY_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
           BRANCH: main # O branch pode ser o que você usa para publicar o site
           FOLDER: dist # A pasta onde está o conteúdo do site
           CLEAN: true
