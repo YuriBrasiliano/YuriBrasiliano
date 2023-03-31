@@ -23,5 +23,5 @@ jobs:
           branch: main
           folder: dist
         env:
-          ACTIONS_DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+          ACTIONS_DEPLOY_TOKEN: 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
                 
