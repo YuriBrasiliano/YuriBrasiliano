@@ -37,6 +37,13 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
+        
+      - name: Set MIME type for .jsx files
+        run: |
+          echo '*.jsx text/jsx' > .gitattributes
+          git add .gitattributes
+          git commit -m "Set MIME type for .jsx files"
+          git push
 
   # Deployment job
   deploy:
