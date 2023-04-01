@@ -6,6 +6,9 @@ import {
     javascript,
     typescript,
     html,
+    usa,
+    spain,
+    france,
     css,
     reactjs,
     nodejs,
@@ -15,6 +18,7 @@ import {
     wizard,
     portfolio,
     jobit,
+    brazil,
     tripguide,
   } from "../assets";
   
@@ -49,6 +53,25 @@ import {
     {
       title: "Java Developer",
       icon: creator,
+    },
+  ];
+
+  const languages = [
+    {
+      title: "Portuguese",
+      icon: brazil,
+    },
+    {
+      title: "English",
+      icon: usa,
+    },
+    {
+      title: "French",
+      icon: france,
+    },
+    {
+      title: "Spanish",
+      icon: spain,
     },
   ];
   
@@ -331,4 +354,4 @@ import {
   ];
 
 
-  export { services, technologies, experiences, testimonials, projects, courses };
+  export { services, technologies, experiences, testimonials, projects, courses, languages };

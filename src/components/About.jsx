@@ -31,6 +31,14 @@ const ServiceCard = ({index, title, icon}) =>{
   )
 }
 
+const LinkedIn = () => {
+  window.open("https://www.linkedin.com/in/yuri-brasiliano-664635160/", "_blank");
+}
+
+const Curriculo = () => {
+  window.open('./src/assets/Profile.pdf', '_blank');
+}
+
 const About = () => {
   return (
     <>
@@ -40,7 +48,7 @@ const About = () => {
     </motion.div>
     <div style={{ display: "flex", flexDirection: "row" }}>
     <motion.p variants={fadeIn("","",0.1,1)}
-    className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
+    className="mt-12 text-secondary text-[17px] max-w-3xl leading-[30px]">
     <br />I am a software development student, specialising in the app development arena. 
     For the last 3 years, I have been developing mobile applications using Java, Kotlin and C ++
     and also web applications, using HTML, CSS, JavaScript, NodeJs and React.
@@ -48,12 +56,20 @@ const About = () => {
     businesses to achieve more by analyzing businesses models and creating projects to maximize 
     efficiency.
     </motion.p>
-    <motion.div variants={fadeIn("","",1,1)} >
+    <motion.div variants={fadeIn("","",1,1)}>
     <img 
     src={eu}
     style={{ marginLeft: "100px" }}
-    className="sm:block hidden mt-4 rounded-full w-[300px]"
+    className="sm:block hidden mt-4 rounded-full w-[200px] mb-10"
     />
+    <button
+    className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold 
+     rounded-xl ml-[130px] sm:block hidden hover:bg-sky-700 focus:outline-none focus:ring focus:ring-violet-300'
+     onClick={LinkedIn}>LinkedIn</button>
+        <button
+    className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold 
+    rounded-xl mt-4 ml-[100px] sm:block hidden hover:bg-purple-800 focus:outline-none focus:ring focus:ring-violet-300'
+    onClick={Curriculo}>Baixar Curriculo</button>
     </motion.div>
 </div>
     <div className='mt-20 flex flex-wrap gap-10'>

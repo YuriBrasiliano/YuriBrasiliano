@@ -7,6 +7,10 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import brazil from "./languages/brazil.gif"
+import usa from "./languages/usa.gif"
+import spain from "./languages/spain.gif"
+import france from "./languages/france.gif"
 import css from "./tech/css.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -26,8 +30,12 @@ export {
   eu,
   jobit,
   logo,
+  usa,
+  spain,
+  france,
   backend,
   creator,
+  brazil,
   mobile,
   web,
   github,
