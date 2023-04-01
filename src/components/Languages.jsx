@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import Tilt from 'react-tilt'
 import {styles} from '../styles'
+
 import {SectionWrapper} from '../hoc'
 import {fadeIn, textVariant} from '../utils/motion'
 import { languages } from '../constants'
