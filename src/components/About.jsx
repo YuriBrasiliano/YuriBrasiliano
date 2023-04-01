@@ -36,7 +36,7 @@ const LinkedIn = () => {
 }
 
 const Curriculo = () => {
-  window.open('./src/assets/Profile.pdf', '_blank');
+  window.open('./Profile.pdf', '_blank');
 }
 
 const About = () => {
