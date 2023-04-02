@@ -20,14 +20,19 @@ import reactjs from "./tech/reactjs.png";
 import typescript from "./tech/typescript.png";
 import corpu from "./company/logo_corpu.png";
 import wizard from "./company/logo_wizard.png";
+import aws from "./tech/aws.png";
+import java from "./tech/java.png"
+import python from "./tech/python.png"
 import portfolio from "./portfolio.png";
 import jobit from "./jobit.png";
-import capa from "./tech/capadelivro.png"
 import tripguide from "./tripguide.png";
 import cypher from "./company/logo_cypher.png";
 
 export {
   eu,
+  aws,
+  python,
+  java,
   jobit,
   logo,
   usa,
@@ -41,7 +46,6 @@ export {
   github,
   menu,
   close,
-  capa,
   css,
   git,
   html,

@@ -10,6 +10,9 @@ import {
     spain,
     france,
     css,
+    java,
+    python,
+    aws,
     reactjs,
     nodejs,
     cypher,
@@ -103,6 +106,18 @@ import {
     {
       name: "git",
       icon: git,
+    },
+    {
+      name: "AWS",
+      icon: aws,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "Python",
+      icon: python,
     },
   ];
   
@@ -242,115 +257,46 @@ import {
   ];
   const courses = [
     {
-      title: "Cloud Computing IBM",
-      date: "Jan 2020 - Jun 2022",
-      info: [
-        "Integrate multiple systems and reconcile needs of different teams.",
-        "Provide advice and technical training.",
-        "Plan and oversee projects (e.g. upgrades, hardware/software installations).",
-        "Gather feedback from end users about system performance.",
-      ],
+      title: "Java",
+      hours: "82 Hours",
+      link: "https://drive.google.com/drive/folders/1W_xic6ER3sgIL-XCFgn1N1KUWM4HL5nK?usp=share_link"
     },
     {
-      title: "Java Program",
-      date: "Jan 2020 - Jun 2022",
-      info: [
-        "Integrate multiple systems and reconcile needs of different teams.",
-        "Provide advice and technical training.",
-        "Plan and oversee projects (e.g. upgrades, hardware/software installations).",
-        "Gather feedback from end users about system performance.",
-      ],
+      title: "Python",
+      hours: "48.5 Hours",
+      link: "https://drive.google.com/drive/folders/11LtYJcchpvATaCp_5ovlCMLuC7uKKAr0?usp=share_link"
     },
     {
-      title: "Python Bootcamp",
-      date: "Jan 2020 - Jun 2022",
-      info: [
-        "Integrate multiple systems and reconcile needs of different teams.",
-        "Provide advice and technical training.",
-        "Plan and oversee projects (e.g. upgrades, hardware/software installations).",
-        "Gather feedback from end users about system performance.",
-      ],
+      title: "QA",
+      hours: "67 Hours",
+      link: "https://drive.google.com/drive/folders/1Iv1JWwMHPp_ocYx7xSOIeWiCkcMsCaJJ?usp=share_link"
     },
     {
-      title: "Python Bootcamp",
-      date: "Jan 2020 - Jun 2022",
-      info: [
-        "Integrate multiple systems and reconcile needs of different teams.",
-        "Provide advice and technical training.",
-        "Plan and oversee projects (e.g. upgrades, hardware/software installations).",
-        "Gather feedback from end users about system performance.",
-      ],
+      title: "IBM Cloud",
+      hours: "60 Hours",
+      link: "https://drive.google.com/drive/folders/1vLJmWtJrYfiVx74RuwTSDZggFKj-gziO?usp=share_link"
     },
     {
-      title: "Python Bootcamp",
-      date: "Jan 2020 - Jun 2022",
-      info: [
-        "Integrate multiple systems and reconcile needs of different teams.",
-        "Provide advice and technical training.",
-        "Plan and oversee projects (e.g. upgrades, hardware/software installations).",
-        "Gather feedback from end users about system performance.",
-      ],
+      title: "Programming",
+      hours: "55 Hours",
+      link: "https://drive.google.com/drive/folders/1PutvSdzVT3lY9KRpqqF0CuYScDen3usF?usp=share_link"
     },
     {
-      title: "Python Bootcamp",
-      date: "Jan 2020 - Jun 2022",
-      info: [
-        "Integrate multiple systems and reconcile needs of different teams.",
-        "Provide advice and technical training.",
-        "Plan and oversee projects (e.g. upgrades, hardware/software installations).",
-        "Gather feedback from end users about system performance.",
-      ],
+      title: ".NET",
+      hours: "72 Hours",
+      link: "https://drive.google.com/drive/folders/1CESpeZKtAftrtLICUrRNLbXNSeS6Xft7?usp=share_link"
     },
     {
-      title: "Python Bootcamp",
-      date: "Jan 2020 - Jun 2022",
-      info: [
-        "Integrate multiple systems and reconcile needs of different teams.",
-        "Provide advice and technical training.",
-        "Plan and oversee projects (e.g. upgrades, hardware/software installations).",
-        "Gather feedback from end users about system performance.",
-      ],
+      title: "C#",
+      hours: "14 Hours",
+      link: "https://drive.google.com/drive/folders/1YGB07k0oXPYyQuKQLlSIM8F8D5dZ4CIL?usp=share_link"
     },
     {
-      title: "Python Bootcamp",
-      date: "Jan 2020 - Jun 2022",
-      info: [
-        "Integrate multiple systems and reconcile needs of different teams.",
-        "Provide advice and technical training.",
-        "Plan and oversee projects (e.g. upgrades, hardware/software installations).",
-        "Gather feedback from end users about system performance.",
-      ],
-    },
-    {
-      title: "Python Bootcamp",
-      date: "Jan 2020 - Jun 2022",
-      info: [
-        "Integrate multiple systems and reconcile needs of different teams.",
-        "Provide advice and technical training.",
-        "Plan and oversee projects (e.g. upgrades, hardware/software installations).",
-        "Gather feedback from end users about system performance.",
-      ],
-    },
-    {
-      title: "Python Bootcamp",
-      date: "Jan 2020 - Jun 2022",
-      info: [
-        "Integrate multiple systems and reconcile needs of different teams.",
-        "Provide advice and technical training.",
-        "Plan and oversee projects (e.g. upgrades, hardware/software installations).",
-        "Gather feedback from end users about system performance.",
-      ],
-    },
-    {
-      title: "Python Bootcamp",
-      date: "Jan 2020 - Jun 2022",
-      info: [
-        "Integrate multiple systems and reconcile needs of different teams.",
-        "Provide advice and technical training.",
-        "Plan and oversee projects (e.g. upgrades, hardware/software installations).",
-        "Gather feedback from end users about system performance.",
-      ],
-    },
+      title: "JavaScript",
+      hours: "43 Hours",
+      link: "https://drive.google.com/drive/folders/1PT6x8RzG8sk1ZNcyL6hMA62VVpZncMQd?usp=share_link"
+    }
+
   ];
 
 
