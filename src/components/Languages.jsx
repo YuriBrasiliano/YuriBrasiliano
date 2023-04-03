@@ -36,7 +36,7 @@ const Languages = () => {
     <div className="mt-12 bg-black-100 rounded-[20px]">
       <div className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}>
       <motion.div variants={textVariant()}>
-      <p className={styles.sectionSubText}>Where can I work</p>
+      <p className={styles.sectionSubText}>Where I can work</p>
       <h1 className={styles.sectionHeadText}>Languages.</h1>
     </motion.div>
     <div className='mt-20 flex flex-wrap gap-10'>

@@ -24,8 +24,6 @@ import aws from "./tech/aws.png";
 import java from "./tech/java.png"
 import python from "./tech/python.png"
 import portfolio from "./portfolio.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import cypher from "./company/logo_cypher.png";
 
 export {
@@ -33,7 +31,6 @@ export {
   aws,
   python,
   java,
-  jobit,
   logo,
   usa,
   spain,
@@ -56,6 +53,5 @@ export {
   corpu,
   wizard,
   portfolio,
-  tripguide,
   cypher
 };

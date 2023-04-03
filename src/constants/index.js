@@ -20,9 +20,7 @@ import {
     corpu,
     wizard,
     portfolio,
-    jobit,
     brazil,
-    tripguide,
   } from "../assets";
   
   export const navLinks = [
@@ -36,7 +34,7 @@ import {
     },
     {
       id: "contact",
-      title: "Contact",
+      title: "Contact", 
     },
   ];
   
@@ -50,11 +48,11 @@ import {
       icon: mobile,
     },
     {
-      title: "AWS Developer",
+      title: "Java Developer",
       icon: backend,
     },
     {
-      title: "Java Developer",
+      title: "Software Enginner",
       icon: creator,
     },
   ];
@@ -166,26 +164,26 @@ import {
   const testimonials = [
     {
       testimonial:
-        "Lorem ipsum dolor sit amet. Aut iure placeat eos eveniet officiis aut modi ipsa sit recusandae int!.",
-      name: "Lorem ipsum",
-      designation: "CFO",
-      company: "Acme Co",
+        "I highly recommend Yuri for his comprehensive understanding of web application development and their ability to create robust and complete applications.",
+      name: "Eliana Colucci",
+      designation: "Manager",
+      company: "Corpu Clinica",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-      "Lorem ipsum dolor sit amet. Aut iure placeat eos eveniet officiis aut modi ipsa sit recusandae int!.",
-      name: "Lorem ipsum",
-      designation: "COO",
-      company: "DEF Corp",
+      "Yuri has the ability to identify and address complex technical issues, as well as his expertise in data analysis and system integration.",
+      name: "Renan Araujo",
+      designation: "Manager",
+      company: "Corpu Clinica",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-      "Lorem ipsum dolor sit amet. Aut iure placeat eos eveniet officiis aut modi ipsa sit recusandae int!.",
-      name: "Lorem ipsum",
-      designation: "CTO",
-      company: "456 Enterprises",
+      "His proficiency in front-end technologies and design principles make him an invaluable asset to any web development project.",
+      name: "Gabriela Melo",
+      designation: "Client",
+      company: "Cypher Technologies",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
@@ -221,9 +219,9 @@ import {
       link: "https://drive.google.com/drive/folders/1W_xic6ER3sgIL-XCFgn1N1KUWM4HL5nK?usp=share_link"
     },
     {
-      title: "Python",
-      hours: "48.5 Hours",
-      link: "https://drive.google.com/drive/folders/11LtYJcchpvATaCp_5ovlCMLuC7uKKAr0?usp=share_link"
+      title: ".NET",
+      hours: "72 Hours",
+      link: "https://drive.google.com/drive/folders/1CESpeZKtAftrtLICUrRNLbXNSeS6Xft7?usp=share_link"
     },
     {
       title: "QA",
@@ -241,19 +239,19 @@ import {
       link: "https://drive.google.com/drive/folders/1PutvSdzVT3lY9KRpqqF0CuYScDen3usF?usp=share_link"
     },
     {
-      title: ".NET",
-      hours: "72 Hours",
-      link: "https://drive.google.com/drive/folders/1CESpeZKtAftrtLICUrRNLbXNSeS6Xft7?usp=share_link"
-    },
-    {
-      title: "C#",
-      hours: "14 Hours",
-      link: "https://drive.google.com/drive/folders/1YGB07k0oXPYyQuKQLlSIM8F8D5dZ4CIL?usp=share_link"
+      title: "Python",
+      hours: "48.5 Hours",
+      link: "https://drive.google.com/drive/folders/11LtYJcchpvATaCp_5ovlCMLuC7uKKAr0?usp=share_link"
     },
     {
       title: "JavaScript",
       hours: "43 Hours",
       link: "https://drive.google.com/drive/folders/1PT6x8RzG8sk1ZNcyL6hMA62VVpZncMQd?usp=share_link"
+    },
+    {
+      title: "C#",
+      hours: "14 Hours",
+      link: "https://drive.google.com/drive/folders/1YGB07k0oXPYyQuKQLlSIM8F8D5dZ4CIL?usp=share_link"
     }
 
   ];
