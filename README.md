@@ -23,13 +23,10 @@ Gosto de criar ótimos softwares e ajudar outras pessoas a fazer o mesmo.
 
 ## **GitHub Estatísticas**
 
-<a href="https://github.com/Gurupreet">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yuribrasiliano&theme=dracula&hide_langs_below=1" />
-</a>
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yuribrasiliano&theme=dracula&hide_langs_below=1" />
 
-<a href="https://github.com/Gurupreet">
- <img align="center" src="https://github-readme-stats.vercel.app/api?username=yuribrasiliano&show_icons=true&theme=dracula&line_height=27" alt="Yuri Brasiliano github stats"/>
-</a>
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=yuribrasiliano&show_icons=true&theme=dracula&line_height=27" alt="Yuri Brasiliano github stats"/>
+
 
 [website]: https://yuribrasiliano.github.io/YuriBrasiliano/
 [linkedin]: https://www.linkedin.com/in/yuri-brasiliano-664635160/
