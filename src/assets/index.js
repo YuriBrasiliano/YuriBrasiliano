@@ -18,6 +18,7 @@ import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import typescript from "./tech/typescript.png";
+import portalgcor from "./portalgcor.png";
 import corpu from "./company/logo_corpu.png";
 import wizard from "./company/logo_wizard.png";
 import aws from "./tech/aws.png";
@@ -31,6 +32,7 @@ export {
   aws,
   python,
   java,
+  portalgcor,
   logo,
   usa,
   spain,

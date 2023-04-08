@@ -3,6 +3,7 @@ import {
     backend,
     creator,
     web,
+    portalgcor,
     javascript,
     typescript,
     html,
@@ -206,10 +207,40 @@ import {
           name: "Tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "GitHubPages",
+          color: "blue-text-gradient",
+        },
       ],
       image: portfolio,
       source_code_link: "https://github.com/YuriBrasiliano/YuriBrasiliano",
     },
+    {
+      name: "Portal GCOR",
+      description:
+        "A website where you can schedule your exams and also where employees can share their ideas with managers, request new equipment, etc.",
+      tags: [
+        {
+          name: "Next.JS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Prisma",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "TailWind",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: portalgcor,
+      source_code_link: "https://github.com/YuriBrasiliano/PortalGCOR",
+    },
+   
    
   ];
   const courses = [
