@@ -69,7 +69,7 @@ const About = () => {
         <button
     className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold 
     rounded-xl mt-4 ml-[100px] sm:block hidden hover:bg-purple-800 focus:outline-none focus:ring focus:ring-violet-300'
-    onClick={Curriculo}>Baixar Curriculo</button>
+    onClick={Curriculo}>Download Resume</button>
     </motion.div>
 </div>
     <div className='mt-20 flex flex-wrap gap-10'>
