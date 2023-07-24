@@ -36,7 +36,7 @@ const LinkedIn = () => {
 }
 
 const Curriculo = () => {
-  window.open('https://drive.google.com/file/d/1fvfdofCfDmvoeTUr4KYvvTEQ1zd9iSh2/view?usp=sharing', '_blank');
+  window.open('https://drive.google.com/file/d/1lrcUA3NzP_Z6O5Odhyl_GT6logu-IQrQ/view?usp=drive_link', '_blank');
 }
 
 const About = () => {
@@ -49,18 +49,22 @@ const About = () => {
     <div style={{ display: "flex", flexDirection: "row" }}>
     <motion.p variants={fadeIn("","",0.1,1)}
     className="mt-12 text-secondary text-[17px] max-w-3xl leading-[30px]">
-    <br />I am a software development student, specialising in the app development arena. 
-    For the last 3 years, I have been developing mobile applications using Java, Kotlin and C ++
-    and also web applications, using HTML, CSS, JavaScript, NodeJs and React.
-    <br /><br />I currently work on my own company as a Development Analyst where I'm able to help small 
-    businesses to achieve more by analyzing businesses models and creating projects to maximize 
-    efficiency.
+    Experienced Full-Stack Developer with a proven track record of crafting captivating and user-friendly web
+applications. Successfully founded and led projects for small businesses, achieving exceptional results by
+strategically aligning technology with objectives.<br />
+Currently working on the development of a full-stack web application with significant potential to expand the
+client's customer base and drive remarkable ROI. Proficient in multiple programming languages, enabling the
+creation of scalable and resilient applications for the modern digital landscape. Committed to staying at the
+forefront of technological advancements, consistently delivering digital experiences that exceed expectations.
+<br />Dedicated to driving meaningful change through innovative, future-ready applications that enrich user lives and
+fuel sustainable business growth. Excited to contribute expertise to your esteemed organization for ambitious
+and cutting-edge development projects.
     </motion.p>
     <motion.div variants={fadeIn("","",1,1)}>
     <img 
     src={eu}
     style={{ marginLeft: "100px" }}
-    className="sm:block hidden mt-4 rounded-full w-[200px] mb-10"
+    className="sm:block hidden mt-[68px] rounded-full w-[200px] mb-10"
     />
     <button
     className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold 

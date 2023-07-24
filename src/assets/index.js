@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import eu from "./eu.png"
+import melune from "./melune.png"
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -32,6 +33,7 @@ export {
   aws,
   python,
   java,
+  melune,
   portalgcor,
   logo,
   usa,

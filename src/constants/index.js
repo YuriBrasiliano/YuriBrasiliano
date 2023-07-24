@@ -22,6 +22,7 @@ import {
     wizard,
     portfolio,
     brazil,
+    melune
   } from "../assets";
   
   export const navLinks = [
@@ -41,7 +42,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full-Stack Web Developer",
       icon: web,
     },
     {
@@ -53,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Software Enginner",
+      title: "English Teacher",
       icon: creator,
     },
   ];
@@ -122,42 +123,42 @@ import {
   
   const experiences = [
     {
-      title: "IT Analyst",
-      company_name: "Corpu Clinica",
-      icon: corpu,
-      iconBg: "#383E56",
-      date: "Jan 2020 - Jun 2022",
-      points: [
-        "Integrate multiple systems and reconcile needs of different teams.",
-        "Provide advice and technical training.",
-        "Plan and oversee projects (e.g. upgrades, hardware/software installations).",
-        "Gather feedback from end users about system performance.",
-      ],
-    },
-    {
       title: "English Teacher",
       company_name: "Wizard",
       icon: wizard,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Jun 2021",
       points: [
-        "Planning, preparing and delivering lessons.",
-        "Helping pupils improve their listening, speaking, reading and writing skills in individual and group sessions.",
-        "Checking and assessing students’ work, and providing feedback.",
-        "Preparing teaching materials.",
+        "Skillfully design, organize, and conduct engaging English lessons that cater to diverse learning needs and styles.",
+        "Cultivate an inclusive and supportive learning environment, empowering students to enhance their listening, speaking, reading, and writing proficiencies through both individualized attention and group collaboration.",
+        "Thoughtfully assess and evaluate students' progress, offering constructive feedback and tailored guidance cto facilitate continuous improvement.",
+        "Craft and adapt comprehensive teaching materials, employing innovative approaches to make language learning an enjoyable and enriching experience for students.",
+      ],
+    },
+    {
+      title: "IT Analyst",
+      company_name: "Corpu Clinica",
+      icon: corpu,
+      iconBg: "#383E56",
+      date: "Jan 2020 - Present",
+      points: [
+        "Successfully executed projects, including upgrades and hardware/software installations, leading to streamlined processes and enhanced system performance.",
+        "Deliver expert advice and conduct comprehensive technical training to equip individuals with the knowledge and skills necessary to excel in their roles.",
+        "Drive continuous improvement by actively seeking feedback from end users and translating their input into enhanced system performance and user satisfaction.",
+        "Implemented IT helpdesk systems and tools, resulting in a reduction in IT support response time by 30%, leading to faster issue resolution and improved customer experience.",
       ],
     },
     {
       title: "Development Analyst",
-      company_name: "Cypher Technologies (My own company)",
+      company_name: "Cypher Technologiesc",
       icon: cypher,
       iconBg: "#383E56",
       date: "Fev 2022 - Present",
       points: [
-        "Analyzing businesses models and creating projects to maximize efficiency.",
-        "Write proposals and liaise with other departments to aline strategies.",
-        "Write technical documentation.",
-        "Build the Front and Back End for an Web Application using clean and functional code.",
+        "Conducted comprehensive analysis of various business models, proactively identifying and addressing process bottlenecks, and successfully executed projects that led to a remarkable optimization of efficiency",
+        "Prepared highly detailed and comprehensive technical documentation, ensuring seamless communication ccacross cross-functional teams and accelerating project development timelines.",
+        "Develop a customer-centric platform, resulting in a significant expansion of the customer base, cstrengthening client-company relationships, and driving a substantial increase in ROI. ",
+        "Designed and implemented a custom eCommerce platform that delivered outstanding results, achieving an impressive 27% increase in conversions, elevating the overall profitability of the business.",
       ],
     },
   ];
@@ -169,7 +170,7 @@ import {
       name: "Eliana Colucci",
       designation: "Manager",
       company: "Corpu Clinica",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      image: "https://scontent.fgru19-1.fna.fbcdn.net/v/t1.6435-9/48369129_1979497285479728_8180696999796932608_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeE-xK2nvEuiXWBaZ4vp3Z63P0blNGpZW20_RuU0allbbf6DPrYbGOAWKYe9zwYnLOSbRmq4LfGFKrElbckjWDZI&_nc_ohc=XKJuGVt3e7QAX91rLsc&_nc_ht=scontent.fgru19-1.fna&oh=00_AfCI15cXl1krZ17QpZ3uZBm5ueZKpJrhs-xCkgif7nssdA&oe=64E5504B",
     },
     {
       testimonial:
@@ -240,6 +241,31 @@ import {
       image: portalgcor,
       source_code_link: "https://github.com/YuriBrasiliano/PortalGCOR",
     },
+    {
+      name: "Melune",
+      description:
+        "ECommerce platform, seamlessly connecting businesses with their customers, revolutionizing online shopping experiences.",
+      tags: [
+        {
+          name: "JQuery",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Liquid",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: melune,
+    },
+   
    
    
   ];
