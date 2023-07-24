@@ -36,7 +36,11 @@ const LinkedIn = () => {
 }
 
 const Curriculo = () => {
+<<<<<<< HEAD
   window.open('https://drive.google.com/file/d/1lrcUA3NzP_Z6O5Odhyl_GT6logu-IQrQ/view?usp=drive_link', '_blank');
+=======
+  window.open('https://drive.google.com/file/d/1gs5bRjm13HMIqq-fTvugjj9ArMhthrbq/view?usp=share_link', '_blank');
+>>>>>>> 1a3bcc7fe3aee29913596d2c10e2fac34b6b2e29
 }
 
 const About = () => {
@@ -72,8 +76,8 @@ and cutting-edge development projects.
      onClick={LinkedIn}>LinkedIn</button>
         <button
     className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold 
-    rounded-xl mt-4 ml-[100px] sm:block hidden hover:bg-purple-800 focus:outline-none focus:ring focus:ring-violet-300'
-    onClick={Curriculo}>Baixar Curriculo</button>
+    rounded-xl mt-4 ml-[90px] sm:block hidden hover:bg-purple-800 focus:outline-none focus:ring focus:ring-violet-300'
+    onClick={Curriculo}>Download Resume</button>
     </motion.div>
 </div>
     <div className='mt-20 flex flex-wrap gap-10'>
