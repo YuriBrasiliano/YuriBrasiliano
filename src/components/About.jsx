@@ -37,7 +37,7 @@ const LinkedIn = () => {
 
 const Curriculo = () => {
 
-  window.open('https://drive.google.com/file/d/1lrcUA3NzP_Z6O5Odhyl_GT6logu-IQrQ/view?usp=drive_link', '_blank');
+  window.open('https://drive.google.com/file/d/159fo-HHGdhoEMH0o8V2VQB7Li_IiBnca/view?usp=drive_link', '_blank');
 }
 
 const About = () => {
