@@ -7,6 +7,7 @@ import {
     javascript,
     typescript,
     html,
+    eli,
     usa,
     spain,
     france,
@@ -170,7 +171,7 @@ import {
       name: "Eliana Colucci",
       designation: "Manager",
       company: "Corpu Clinica",
-      image: "https://scontent.fgru19-1.fna.fbcdn.net/v/t1.6435-9/48369129_1979497285479728_8180696999796932608_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeE-xK2nvEuiXWBaZ4vp3Z63P0blNGpZW20_RuU0allbbf6DPrYbGOAWKYe9zwYnLOSbRmq4LfGFKrElbckjWDZI&_nc_ohc=XKJuGVt3e7QAX91rLsc&_nc_ht=scontent.fgru19-1.fna&oh=00_AfCI15cXl1krZ17QpZ3uZBm5ueZKpJrhs-xCkgif7nssdA&oe=64E5504B",
+      image: eli,
     }
   ];
   
