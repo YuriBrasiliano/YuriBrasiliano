@@ -171,23 +171,7 @@ import {
       designation: "Manager",
       company: "Corpu Clinica",
       image: "https://scontent.fgru19-1.fna.fbcdn.net/v/t1.6435-9/48369129_1979497285479728_8180696999796932608_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeE-xK2nvEuiXWBaZ4vp3Z63P0blNGpZW20_RuU0allbbf6DPrYbGOAWKYe9zwYnLOSbRmq4LfGFKrElbckjWDZI&_nc_ohc=XKJuGVt3e7QAX91rLsc&_nc_ht=scontent.fgru19-1.fna&oh=00_AfCI15cXl1krZ17QpZ3uZBm5ueZKpJrhs-xCkgif7nssdA&oe=64E5504B",
-    },
-    {
-      testimonial:
-      "Yuri has the ability to identify and address complex technical issues, as well as his expertise in data analysis and system integration.",
-      name: "Renan Araujo",
-      designation: "Manager",
-      company: "Corpu Clinica",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-      "His proficiency in front-end technologies and design principles make him an invaluable asset to any web development project.",
-      name: "Gabriela Melo",
-      designation: "Client",
-      company: "Cypher Technologies",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    }
   ];
   
   const projects = [
@@ -222,15 +206,15 @@ import {
         "A website where you can schedule your exams and also where employees can share their ideas with managers, request new equipment, etc.",
       tags: [
         {
-          name: "Next.JS",
+          name: "ReactJS",
           color: "blue-text-gradient",
         },
         {
-          name: "Prisma",
+          name: "SCSS",
           color: "green-text-gradient",
         },
         {
-          name: "MongoDB",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
         {
@@ -239,7 +223,7 @@ import {
         },
       ],
       image: portalgcor,
-      source_code_link: "https://github.com/YuriBrasiliano/PortalGCOR",
+      source_code_link: "https://github.com/YuriBrasiliano/portalCorpu",
     },
     {
       name: "Melune",
