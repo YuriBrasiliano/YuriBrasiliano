@@ -8,6 +8,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import eli from "./eli.png";
 import brazil from "./languages/brazil.gif"
 import usa from "./languages/usa.gif"
 import spain from "./languages/spain.gif"
@@ -30,6 +31,7 @@ import cypher from "./company/logo_cypher.png";
 
 export {
   eu,
+  eli,
   aws,
   python,
   java,
